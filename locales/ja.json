@@ -91,23 +91,23 @@
   },
   "blogs": {
     "article": {
-      "view_all": "",
-      "tags": "",
-      "read_more": "",
-      "back_to_blog": ""
+      "view_all": "View all",
+      "tags": "Tags",
+      "read_more": "Continue reading",
+      "back_to_blog": "Back to {{ title }}"
     },
     "comments": {
-      "title": "",
-      "name": "",
-      "email": "",
-      "message": "",
-      "post": "",
-      "moderated": "",
-      "success_moderated": "",
-      "success": "",
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
       "with_count": {
-        "one": "",
-        "other": ""
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
       }
     }
   },
