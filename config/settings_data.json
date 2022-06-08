@@ -79,6 +79,7 @@
           },
           "1524770292306": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Free shipping",
               "link_text": "On all orders over $100",
@@ -87,6 +88,7 @@
           },
           "1524770296206": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Hassle-free returns",
               "link_text": "30-day postage paid returns",
