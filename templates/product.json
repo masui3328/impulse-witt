@@ -68,6 +68,12 @@
           "type": "share",
           "settings": {
           }
+        },
+        "9b47297a-61e1-48b4-9241-38a3c3cfe2ec": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"product__policies rte small--text-center\"><a href=\"#\">SIZE GUIDE<\/a> <\/div>"
+          }
         }
       },
       "block_order": [
@@ -80,7 +86,8 @@
         "description",
         "tab",
         "contact",
-        "share"
+        "share",
+        "9b47297a-61e1-48b4-9241-38a3c3cfe2ec"
       ],
       "settings": {
         "sku_enable": false,
