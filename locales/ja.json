@@ -138,24 +138,24 @@
   },
   "collections": {
     "general": {
-      "catalog_title": "",
-      "all_of_collection": "",
-      "view_all_products_html": "",
-      "see_more": "",
-      "see_less": "",
-      "no_matches": "",
+      "catalog_title": "Catalog",
+      "all_of_collection": "View all",
+      "view_all_products_html": "View all<br>{{ count }} products",
+      "see_more": "Show more",
+      "see_less": "Show less",
+      "no_matches": "Sorry, there are no products in this collection.",
       "items_with_count": {
-        "one": "",
-        "other": ""
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
       }
     },
     "sorting": {
-      "title": ""
+      "title": "Sort"
     },
     "filters": {
-      "title_tags": "",
-      "all_tags": "",
-      "categories_title": ""
+      "title_tags": "Filter",
+      "all_tags": "All products",
+      "categories_title": "Categories"
     }
   },
   "contact": {
