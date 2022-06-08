@@ -1,0 +1,30 @@
+<ul class="side-nav--list">
+    {%- for link in main_menu.links -%}
+        {%- liquid
+            assign has_dropdown = false
+            assign is_megamenu = false
+            if link.links != blank
+                assign has_dropdown = true
+                if link.levels > 1
+                    assign is_megamenu = true
+                endif
+            endif
+        -%}
+        {%- if  has_dropdown -%}
+            <li >
+                <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+            <ul class="side-nav--list">
+                {%- for childlink in link.links -%}
+                    <li>
+                        <a href="{{ childlink.url }}">{{ childlink.title }}</a>
+                    </li>
+                {%- endfor -%}
+            </ul>
+        {%- else -%}
+            <li >
+                <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+        {%- endif -%}
+    {%- endfor -%}
+</ul>
