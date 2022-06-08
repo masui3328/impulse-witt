@@ -6,26 +6,35 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
             "title_size": 80,
+            "subheading": "And optional subtext",
             "link": "shopify:\/\/collections\/all",
-            "link_text": "Shop this",
-            "link_2": "shopify:\/\/collections\/all",
-            "link_text_2": "Shop all",
+            "link_text": "COLLECTION",
+            "link_2": "",
+            "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/024.jpg",
+            "overlay_opacity": 0,
             "focal_point": "top center"
           }
         },
         "slideshow-1": {
           "type": "image",
           "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
             "title_size": 80,
+            "subheading": "And optional subtext",
             "link": "shopify:\/\/collections\/all",
             "link_text": "Shop all",
             "link_2": "shopify:\/\/collections\/all",
             "link_text_2": "Shop all",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-left",
+            "overlay_opacity": 0,
             "focal_point": "top center"
           }
         }
@@ -49,11 +58,14 @@
         "heading": {
           "type": "heading",
           "settings": {
+            "title": "Rich text"
           }
         },
         "text": {
           "type": "text",
           "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
@@ -62,6 +74,9 @@
         "text"
       ],
       "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "promo-grid": {
@@ -70,12 +85,20 @@
         "promo-0": {
           "type": "advanced",
           "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
             "cta_link1": "shopify:\/\/collections\/all",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
             "width": "50",
             "height": 800,
             "text_size": 100,
             "text_align": "vertical-center horizontal-center",
             "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": true
           }
@@ -83,12 +106,20 @@
         "promo-1": {
           "type": "advanced",
           "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
             "cta_link1": "shopify:\/\/collections\/all",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
             "width": "50",
             "height": 500,
             "text_size": 100,
             "text_align": "vertical-bottom horizontal-center",
             "focal_point": "80% 50%",
+            "color_accent": "rgba(0,0,0,0)",
             "boxed": true,
             "framed": false
           }
@@ -111,21 +142,33 @@
         "featured-collections-0": {
           "type": "collection",
           "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
           }
         },
         "featured-collections-1": {
           "type": "collection",
           "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
           }
         },
         "featured-collections-2": {
           "type": "collection",
           "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
           }
         },
         "featured-collections-3": {
           "type": "collection",
           "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
           }
         }
       },
@@ -148,11 +191,20 @@
         "promo2-0": {
           "type": "advanced",
           "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
             "cta_link1": "shopify:\/\/collections\/all",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
             "width": "100",
             "height": 720,
             "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
             "focal_point": "80% 50%",
+            "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": false
           }
@@ -160,7 +212,13 @@
         "promo2-1": {
           "type": "sale_collection",
           "settings": {
+            "sale_collection": "",
+            "top_text": "Up to",
+            "middle_text": "50% off",
+            "bottom_text": "Select products",
             "width": "50",
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
             "boxed": false,
             "framed": true
           }
@@ -168,7 +226,13 @@
         "promo2-2": {
           "type": "sale_collection",
           "settings": {
+            "sale_collection": "",
+            "top_text": "Up to",
+            "middle_text": "50% off",
+            "bottom_text": "Select products",
             "width": "50",
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
             "boxed": false,
             "framed": true
           }
@@ -189,8 +253,11 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
         "per_row": 4,
         "rows": 1,
+        "mobile_scrollable": true,
         "view_all": true,
         "divider": false
       }
@@ -198,6 +265,10 @@
     "background-image-text": {
       "type": "background-image-text",
       "settings": {
+        "subtitle": "Impressive",
+        "title": "Large image with text box",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "button_label": "",
         "button_link": "shopify:\/\/collections\/all",
         "focal_point": "80% 0",
         "layout": "left",
@@ -224,6 +295,12 @@
     "map": {
       "type": "map",
       "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image_position": "center center"
       }
     }
   },
