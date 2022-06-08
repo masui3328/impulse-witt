@@ -29,13 +29,14 @@
             "title_size": 80,
             "subheading": "And optional subtext",
             "link": "shopify:\/\/collections\/all",
-            "link_text": "Shop all",
-            "link_2": "shopify:\/\/collections\/all",
-            "link_text_2": "Shop all",
+            "link_text": "COLLECTION",
+            "link_2": "",
+            "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/011_da87f766-c961-49e1-a183-f47f33f338bd.jpg",
             "overlay_opacity": 0,
-            "focal_point": "top center"
+            "focal_point": "bottom center"
           }
         }
       },
