@@ -882,6 +882,12 @@
       },
       {
         "type": "text",
+        "id": "social_line_link",
+        "label": "t:settings_schema.social_media.settings.social_line_link.label",
+        "info": "t:settings_schema.social_media.settings.social_line_link.info"
+      },
+      {
+        "type": "text",
         "id": "social_facebook_link",
         "label": "t:settings_schema.social_media.settings.social_facebook_link.label",
         "info": "t:settings_schema.social_media.settings.social_facebook_link.info"
