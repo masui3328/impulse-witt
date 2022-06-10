@@ -48,6 +48,13 @@
           "settings": {
           }
         },
+        "bc9cfa3c-ba33-4121-8b35-17d59a95da2e": {
+          "type": "shopify:\/\/apps\/\/blocks\/app-block\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
+          "settings": {
+            "onetime_purchase_label": "１回決済",
+            "subscription_label": "定期決済"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -84,13 +91,6 @@
           "type": "share",
           "settings": {
           }
-        },
-        "bc9cfa3c-ba33-4121-8b35-17d59a95da2e": {
-          "type": "shopify:\/\/apps\/\/blocks\/app-block\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
-          "settings": {
-            "onetime_purchase_label": "１回決済",
-            "subscription_label": "定期決済"
-          }
         }
       },
       "block_order": [
@@ -101,13 +101,13 @@
         "inventory_status",
         "buy_buttons",
         "be648af9-7c21-42b9-9dc3-ec2a1e37f0e6",
+        "bc9cfa3c-ba33-4121-8b35-17d59a95da2e",
         "description",
         "9b47297a-61e1-48b4-9241-38a3c3cfe2ec",
         "87833657-4985-4cd8-bcac-54e7ddee38c8",
         "tab",
         "contact",
-        "share",
-        "bc9cfa3c-ba33-4121-8b35-17d59a95da2e"
+        "share"
       ],
       "settings": {
         "sku_enable": false,
