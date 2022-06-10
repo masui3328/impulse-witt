@@ -84,6 +84,13 @@
           "type": "share",
           "settings": {
           }
+        },
+        "bc9cfa3c-ba33-4121-8b35-17d59a95da2e": {
+          "type": "shopify:\/\/apps\/\/blocks\/app-block\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
+          "settings": {
+            "onetime_purchase_label": "１回決済",
+            "subscription_label": "定期決済"
+          }
         }
       },
       "block_order": [
@@ -99,7 +106,8 @@
         "87833657-4985-4cd8-bcac-54e7ddee38c8",
         "tab",
         "contact",
-        "share"
+        "share",
+        "bc9cfa3c-ba33-4121-8b35-17d59a95da2e"
       ],
       "settings": {
         "sku_enable": false,
