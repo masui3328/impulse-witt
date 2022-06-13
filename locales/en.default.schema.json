@@ -2846,6 +2846,10 @@
           "label": "Vimeo",
           "info": "https:\/\/vimeo.com\/shopify"
         },
+        "social_weibo_link": {
+          "label": "weibo",
+          "info": "https:\/\/weibo.com\/shopify"
+        },
         "header_sharing_options": "Sharing options",
         "share_facebook": {
           "label": "Share on Facebook"
