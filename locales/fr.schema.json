@@ -2836,6 +2836,10 @@
           "label": "Vimeo",
           "info": "https:\/\/vimeo.com\/shopify"
         },
+        "social_line_link": {
+          "label": "line",
+          "info": "https:\/\/line.com\/shopify"
+        },
         "social_weibo_link": {
           "label": "weibo",
           "info": "https:\/\/weibo.com\/shopify"
