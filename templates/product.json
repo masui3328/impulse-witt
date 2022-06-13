@@ -13,6 +13,13 @@
           "settings": {
           }
         },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -21,19 +28,19 @@
             "color_swatches": false
           }
         },
-        "sales_point": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "globe",
-            "text": "Free worldwide shipping"
-          }
-        },
         "inventory_status": {
           "type": "inventory_status",
           "disabled": true,
           "settings": {
             "inventory_threshold": 10,
             "inventory_transfers_enable": true
+          }
+        },
+        "bc9cfa3c-ba33-4121-8b35-17d59a95da2e": {
+          "type": "shopify:\/\/apps\/\/blocks\/app-block\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
+          "settings": {
+            "onetime_purchase_label": "１回決済",
+            "subscription_label": "定期決済"
           }
         },
         "buy_buttons": {
@@ -46,13 +53,6 @@
         "be648af9-7c21-42b9-9dc3-ec2a1e37f0e6": {
           "type": "separator",
           "settings": {
-          }
-        },
-        "bc9cfa3c-ba33-4121-8b35-17d59a95da2e": {
-          "type": "shopify:\/\/apps\/\/blocks\/app-block\/67cce3d8-a1e5-43f3-8d2d-0c320d8c46e7",
-          "settings": {
-            "onetime_purchase_label": "１回決済",
-            "subscription_label": "定期決済"
           }
         },
         "description": {
@@ -96,12 +96,12 @@
       "block_order": [
         "price",
         "separator",
-        "variant_picker",
         "sales_point",
+        "variant_picker",
         "inventory_status",
+        "bc9cfa3c-ba33-4121-8b35-17d59a95da2e",
         "buy_buttons",
         "be648af9-7c21-42b9-9dc3-ec2a1e37f0e6",
-        "bc9cfa3c-ba33-4121-8b35-17d59a95da2e",
         "description",
         "9b47297a-61e1-48b4-9241-38a3c3cfe2ec",
         "87833657-4985-4cd8-bcac-54e7ddee38c8",
