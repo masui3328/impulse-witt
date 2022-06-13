@@ -942,9 +942,9 @@
       },
       {
         "type": "text",
-        "id": "social_line_link",
-        "label": "t:settings_schema.social_media.settings.social_line_link.label",
-        "info": "t:settings_schema.social_media.settings.social_line_link.info"
+        "id": "social_Line_link",
+        "label": "t:settings_schema.social_media.settings.social_Line_link.label",
+        "info": "t:settings_schema.social_media.settings.social_Line_link.info"
       },
       {
         "type": "text",
