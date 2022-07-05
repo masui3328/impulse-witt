@@ -32,7 +32,7 @@
             "link_text": "VIEW PRODUCTS",
             "link_2": "",
             "link_text_2": "",
-            "color_accent": "#000000",
+            "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-left",
             "image": "shopify:\/\/shop_images\/011_da87f766-c961-49e1-a183-f47f33f338bd.jpg",
             "overlay_opacity": 0,
