@@ -2699,10 +2699,10 @@ button{
 }
 
 fieldset{
-  border:1px solid;
-  border-color:{{ settings.color_borders | default: "#1c1d1d" }};
+  border:none;
+/*  border-color:{{ settings.color_borders | default: "#1c1d1d" }};
   border-color:var(--colorBorder);
-  padding:15px;
+  padding:15px;*/
 }
 
 legend{
@@ -7952,8 +7952,8 @@ select .variant-input{
 
 .variant__label[for]{
   display:inline-block;
-  margin-bottom:10px;
-  cursor:default;border:1px solid;
+  margin:0;
+  cursor:default;
 }
 
 .variant__label-info{
