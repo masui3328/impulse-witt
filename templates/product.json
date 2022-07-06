@@ -23,7 +23,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "variant_labels": false,
+            "variant_labels": true,
             "picker_type": "button",
             "color_swatches": false
           }
