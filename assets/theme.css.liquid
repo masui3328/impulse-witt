@@ -7912,19 +7912,19 @@ label.tag__checkbox-wrapper{
       top:0;
       bottom:0;
       border-left:1px solid;
-      border-color:{{ settings.color_borders | default: "#1c1d1d" }};
+      border-color:#ff0000;
       border-color:var(--colorBorder);
       transform:rotate(45deg);
     }
 
 .variant-input-wrap input[type=radio]:focus+label{
-    border-color:{{ settings.color_body_text | default: "#ff0000" | color_modify: "alpha", 0.05 }};
-    box-shadow:0 0 0 1px {{ settings.color_body_text | default:"#ff0000" }};
+    border-color:{{ settings.color_body_text | default: "#1c1d1d" | color_modify: "alpha", 0.05 }};
+    box-shadow:0 0 0 1px {{ settings.color_body_text | default:"#1c1d1d" }};
     box-shadow:0 0 0 1px var(--colorTextBody);
   }
 
 .variant-input-wrap input[type=radio]:checked+label{
-    box-shadow:0 0 0 2px {{ settings.color_body_text | default:"#ff0000" }};
+    box-shadow:0 0 0 2px {{ settings.color_body_text | default:"#1c1d1d" }};
     box-shadow:0 0 0 2px var(--colorTextBody);
   }
 
