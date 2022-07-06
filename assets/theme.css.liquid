@@ -7871,7 +7871,7 @@ label.tag__checkbox-wrapper{
 
 .variant-input-wrap label{
     font-family:var(--typeBasePrimary),var(--typeBaseFallback);
-    font-size:calc(var(--typeBaseSize)*0.92);
+    font-size:calc(var(--typeBaseSize)*0.22);
     letter-spacing:var(--typeBaseSpacing);
     line-height:var(--typeBaseLineHeight)
   }
@@ -7912,7 +7912,8 @@ label.tag__checkbox-wrapper{
       top:0;
       bottom:0;
       border-left:1px solid;
-      border-color:#ff0000;
+      border-color:{{ settings.color_borders | default: "#1c1d1d" }};
+      border-color:var(--colorBorder);
       transform:rotate(45deg);
     }
 
