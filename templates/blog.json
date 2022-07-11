@@ -15,6 +15,7 @@
     },
     "featured-collections": {
       "type": "featured-collections",
+      "disabled": true,
       "blocks": {
         "collection1": {
           "type": "collection",
