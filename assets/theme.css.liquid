@@ -5094,8 +5094,15 @@ form+.footer__social{
 }
 
 .side-nav--list{
-  list-style:none
+  list-style:none;
+  font-size:calc(var(--typeBaseSize) - 2px);
+  letter-spacing:0.05em
 }
+@media only screen and (max-width:768px){
+.side-nav--list{
+      font-size:calc(var(--typeBaseSize) - 2px);
+  }
+    }
 
 .is-focused>.site-nav__dropdown,.site-nav--has-dropdown:hover .site-nav__dropdown{
     display:block;
