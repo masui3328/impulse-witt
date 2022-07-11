@@ -13,6 +13,7 @@
     },
     "blog-posts": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "title": "You may also like",
         "blog": "",
