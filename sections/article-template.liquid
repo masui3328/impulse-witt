@@ -40,7 +40,7 @@
                   </a> &middot;
                 {%- endif -%}
                 {%- if section.settings.blog_show_date -%}
-                  {{ article.published_at | date: '%Y.%m.%d'}}
+                  {{ article.published_at | time_tag: format: 'month_day_year' }}
                 {%- endif -%}
               </div>
             {%- endif -%}
@@ -79,7 +79,7 @@
               </a> &middot;
             {%- endif -%}
             {%- if section.settings.blog_show_date -%}
-              {{ article.published_at | date: '%Y.%m.%d' }}
+              {{ article.published_at | time_tag: format: 'month_day_year' }}
             {%- endif -%}
           </div>
         {%- endif -%}
