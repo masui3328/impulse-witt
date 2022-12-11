@@ -149,7 +149,7 @@
             "settings": {
               "show_footer_title": false,
               "title": "Sign up and save",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "text": "<p>商品発売日などをメールにてご案内しております。ご希望の方は下記からご登録ください。<\/p>",
               "container_width": 36
             }
           },
