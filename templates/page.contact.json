@@ -8,19 +8,19 @@
     },
     "rich-text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Get in touch"
+            "title": ""
           }
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "enlarge_text": false,
+            "text": ""
           }
         }
       },
