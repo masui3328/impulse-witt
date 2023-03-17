@@ -868,6 +868,16 @@
       },
       "load_paypal_error": {
         "description": "加载贝宝时出现问题。请再试一次。"
+      },
+      "address_deletion_error": {
+        "description": "删除此地址时出现问题。请重试或刷新页面。"
+      },
+      "addresses_loading_issue": {
+        "description": "连接错误。请检查您的互联网连接并重试。"
+      },
+      "banner_title": {
+        "one": "有{{count}}个错误",
+        "other": "有{{count}}个错误"
       }
     },
     "shop_policies": {
@@ -1343,7 +1353,146 @@
         "section_title": "地点",
         "shipping_address_required": "将您的送货地址添加到此位置以启动您的订单。",
         "tax_details_title": "税务详情",
-        "tax_id": "纳税人识别号"
+        "tax_id": "纳税人识别号",
+        "multiple_tax_exemptions": "其他{{taxExemptionsCount}}个国家",
+        "multiple_tax_exemptions_and": "和",
+        "tax_exemptions_modal_close": "关闭",
+        "taxes_none": "没有任何",
+        "tax_exemption_not_applicable": "不适用",
+        "tax_exemptions_modal_button_accessibility_label": "查看所有免税",
+        "pagination": {
+          "load_more": "装载更多",
+          "load_more_accessibility_label": "加载更多位置"
+        }
+      },
+      "location_selection": {
+        "description": "如果您的购物车中已有商品，更改位置会影响购物车的价格和数量。",
+        "list_accessibility_label": "位置列表",
+        "list_item_without_address_accessibility_label": "{{name}} : 没有地址",
+        "list_loading_accessibility_message": "加载位置列表",
+        "list_loading_address_accessibility_message": "加载{{locationName}}的地址",
+        "list_loading_finished_accessibility_message": "加载位置列表",
+        "loading_store_accessibility_message": "搬到商店",
+        "selection_cancel_button": "取消",
+        "selection_confirmation_button": "选择地点",
+        "title": "您想从哪个地点购买？",
+        "continue_to_store": "继续商店",
+        "no_location_title": "仅限个人订单",
+        "no_location_description": "您不再被授权为{{company}}下订单。仍然可以下单。",
+        "no_locations_found": "找不到位置",
+        "search": "搜索地点",
+        "clear_search": "清除搜索",
+        "try_new_search": "尝试新的搜索"
+      },
+      "addresses": {
+        "add_billing_address_button": "添加账单地址",
+        "add_billing_address_section_accessibility_label": "添加账单地址",
+        "add_shipping_address_button": "添加送货地址",
+        "add_shipping_address_section_accessibility_label": "添加送货地址",
+        "billing_address_card_title": "帐单地址",
+        "cancel_adding_billing_address_accessibility_label": "取消添加账单地址",
+        "cancel_adding_shipping_address_accessibility_label": "取消添加送货地址",
+        "save_new_billing_address_accessibility_label": "保存账单地址",
+        "save_new_shipping_address_accessibility_label": "保存送货地址",
+        "shipping_address_card_title": "收件地址"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "全部藏起来",
+          "show_all": "显示所有",
+          "hide_all_accessibility_label": "隐藏所有正在审核的订单",
+          "show_all_accessibility_label": "查看所有挂单",
+          "title": "等候接听",
+          "pagination": {
+            "nav_accessibility_label": "确认订单的菜单按钮"
+          },
+          "show_all_orders_in_review": "查看所有挂单",
+          "show_less_orders_in_review": "显示更少的正在审查的订单",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "没有挂单",
+            "pending_orders": {
+              "one": "您有{{count}}个挂单",
+              "other": "您有{{count}}个挂单"
+            },
+            "more_than_pagination_length": "您有超过{{count}}个挂单"
+          },
+          "pending_orders_count_more_than_pagination_length": "超过{{count}}"
+        },
+        "order_list_column_headers_location": "地点",
+        "order_list_column_headers_contact": "联系地址",
+        "removed_company_contact_tooltip": "从公司中删除"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "订单（ {{draftOrderName}} ）确认日期： {{date}}",
+        "loading": "加载订单详情",
+        "loading_finished_accessibility_message": "已加载订单详情",
+        "payment_status": {
+          "draft": {
+            "description": "付款详情将在订单确认后确定。",
+            "title": "未付的钱",
+            "in_review": {
+              "description": "付款详情将在订单确认后确定。",
+              "title": "未付"
+            },
+            "submitted": {
+              "description": "请付款以确认此订单。",
+              "title": "付款并确认"
+            }
+          },
+          "paid": {
+            "description": "此订单已全额付款。",
+            "title": "有薪酬的",
+            "title_with_date": "支付{{date}}"
+          },
+          "pay_now": "现在付款",
+          "title": "支付状态",
+          "pending": {
+            "banner_overdue": {
+              "one": "付款延迟{{count}}天",
+              "other": "付款延迟{{count}}天"
+            },
+            "banner_due": {
+              "one": "付款将于{{count}}后到期",
+              "other": "付款将在{{count}}天后到期"
+            },
+            "banner_due_today": "今天到期付款",
+            "title": "付款日期",
+            "title_with_date": "到期付款： {{date}}",
+            "description_overdue": "我的付款迟到了。",
+            "description_partially_paid": "此订单已部分付款并有余额。",
+            "description_authorized": "您的付款方式将在到期日收取费用，或者您可以立即付款。",
+            "title_due_on_receipt": "付款尚未到期",
+            "description_due_on_receipt": "付款到期时，您将收到一张发票。",
+            "title_due_on_fulfillment": "付款应在履行时到期",
+            "description_due_on_fulfillment": "此订单中的所有商品均已发货后即应付款。"
+          },
+          "refund": {
+            "title": "已退款",
+            "title_with_date": "已于{{date}}退款",
+            "description_full_refund": "此订单已全额退款。",
+            "description_single_refund": "此订单已部分退款。",
+            "description_multiple_refunds": "此订单已部分退款。"
+          },
+          "canceled": {
+            "title": "付款已取消。",
+            "description": "不会收取任何费用。"
+          },
+          "pay_now_accessibility_label": "立即支付订单 ( {{orderName}} )"
+        },
+        "subtitle": "发送日期： {{date}}",
+        "title": "订单（ {{name}} ）",
+        "order_timeline": {
+          "expand_events_label": "查看详情",
+          "expand_events_accessibility_label": "查看草稿订单详细信息",
+          "hide_events_label": "隐藏细节",
+          "hide_events_accessibility_label": "隐藏草稿订单详情"
+        }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "此付款方式将不再适用于以后从此位置购买的商品。",
+          "description_with_replacement": "删除此付款方式将影响此地点的预核准付款。要继续接收未来的订单，请更改为其他付款方式。"
+        }
       }
     }
   },
