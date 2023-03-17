@@ -39,7 +39,13 @@
           "session_identifier_not_unique_error": "您的订单出了点问题。请再次检查。",
           "line_item_limit_reached": "您已达到项目的最大数量。"
         },
-        "full_price": "全额："
+        "full_price": "全额：",
+        "page_title": "支付",
+        "error_page_title": "错误",
+        "skip_to_content": "跳到内容",
+        "breadcrumb": "面包屑",
+        "continue_button_label": "继续",
+        "complete_purchase_button_label": "订单完成"
       },
       "contact": {
         "title": "信息",
@@ -948,6 +954,11 @@
         "price_ascending": "低价订货",
         "price_descending": "高价"
       }
+    },
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": "和",
+      "last_word_connector": "，和"
     }
   },
   "customer_accounts": {
