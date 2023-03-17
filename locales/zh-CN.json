@@ -478,5 +478,359 @@
         }
       }
     }
+  },
+  "customer_accounts": {
+    "errors": {
+      "failed_address_creation": {
+        "description": "创建地址时出现问题。请刷新此页面或检查您的互联网连接。"
+      },
+      "failed_address_update": {
+        "description": "更新您的地址时出现问题。请刷新此页面或检查您的互联网连接。"
+      },
+      "no_access": {
+        "back_to_authentication_link": "登录到另一个帐户",
+        "description": "您未在{{shopName}}注册为 B2B 客户",
+        "title": "无法访问"
+      },
+      "no_access_to_locations": {
+        "description": "无法访问任何位置"
+      },
+      "not_found": {
+        "description": "请检查 URL 或稍后重试。",
+        "title": "加载此页面时出现问题"
+      },
+      "order_not_found": {
+        "description": "此订单不存在或您无权查看订单。",
+        "title": "找不到订单"
+      },
+      "profile_update_error": {
+        "description": "更新您的个人资料时出现问题。请刷新此页面或检查您的互联网连接。"
+      },
+      "retry_action_label": "重试",
+      "load_orders_error": {
+        "title": "无法加载订单",
+        "description": "请重试或稍后再回来。",
+        "retry_button": "重试"
+      },
+      "load_paypal_error": {
+        "description": "加载贝宝时出现问题。请再试一次。"
+      }
+    },
+    "shop_policies": {
+      "legal_notice": "基于特定商业交易法的符号",
+      "privacy_policy": "隐私政策",
+      "refund_policy": "退款政策",
+      "shipping_policy": "运输政策",
+      "subscription_policy": "订阅政策",
+      "terms_of_sale": "销售条款",
+      "terms_of_service": "服务条款"
+    },
+    "payment_methods": {
+      "title": "付款方式",
+      "add_payment_method_button": "添加付款方式",
+      "payment_details": {
+        "title": "付款方式详情",
+        "payment_method_expiring_on": "到期日： {{expiryDate}}",
+        "preauthorized_payments": "预核准付款",
+        "close_payment_modal": "关闭",
+        "close_payment_modal_accessibility_label": "关闭付款方式详细信息模式",
+        "payment_method_not_found_error": "找不到付款方式",
+        "payment_details_loading": "加载付款方式详细信息",
+        "pre_authorized_payments": "预核准付款",
+        "total_amount_of_subscription_line_items_left": "还有{{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "显示{{totalItems}}个项目， {{totalItemsToDisplay}}个项目。",
+        "next_payment_due": "下次付款到期： {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "编辑",
+        "edit_payment_method_button_accessibility_label": "修改以{{lastDigits}}结尾的付款方式",
+        "credit_card_details_accessibility_label": "卡片末尾的数字： {{lastDigits}}",
+        "billing_title": "帐单地址",
+        "card_info_title": "卡信息",
+        "payment_method_expired_on": "于{{expiryDate}}过期"
+      },
+      "delete_payment_method_button": "删除",
+      "delete_payment_method_button_accessibility_label": "删除{{paymentMethodName}}",
+      "back_button": "返回",
+      "back_button_accessibility_label": "返回{{paymentMethodStepTitle}}",
+      "generic_card": "卡片",
+      "payment_delete": {
+        "title": "移除付款方式",
+        "description_without_replacement": "此付款方式将不再适用于未来的购买。",
+        "description_with_replacement": "删除此付款方式将影响预先核准的付款。要继续接收未来的订单，您可以选择更改为另一种付款方式。",
+        "payment_method_selector_placeholder": "选择其他付款方式（可选）",
+        "replace_method_with_new_method_description": "{{currentPaymentMethodName}}将被删除并更改为{{newPaymentMethodName}} 。",
+        "error_when_deleting": "抱歉，出了点问题，我们无法删除此付款方式。请稍后重试或刷新页面。",
+        "delete_and_replace_button": "删改",
+        "delete_and_replace_button_accessibility_label": "删除{{currentPaymentMethodName}}并将其更改为{{newPaymentMethodName}} 。",
+        "deleted_successfully": "付款方式已成功删除。",
+        "payment_method_selector_no_alternative_payment": "别无选择",
+        "loading_available_payment_methods_accessibility_label": "加载可用的付款方式"
+      },
+      "edit_payment_method": {
+        "title": "修改付款方式",
+        "save_payment_method_button": "保持",
+        "cancel_edit_payment_method_button": "取消",
+        "payment_method_updated_toast": "付款方式已更新",
+        "billing_address": "帐单地址",
+        "billing_address_add_new": "添新",
+        "billing_address_choose_from_list": "从列表中选择",
+        "future_purchases_notice": "此付款方式将被保存以供将来购买。"
+      },
+      "card_fields": {
+        "card_number_label": "卡号",
+        "card_number_placeholder": "卡号",
+        "name_on_card_label": "持卡人",
+        "name_on_card_placeholder": "持卡人",
+        "card_expiry_label": "有效期（月\/年）",
+        "card_expiry_placeholder": "有效期（月\/年）",
+        "card_verification_value_label": "安全码",
+        "card_verification_value_placeholder": "安全码",
+        "card_start_label": "发行日期（月\/年）",
+        "card_start_placeholder": "发行日期（月\/年）",
+        "tooltip": {
+          "tooltip_accessibility_label": "细节",
+          "card_verification_value_explanation_amex": "卡正面的4位数字代码",
+          "card_verification_value_explanation_other": "卡背面的3位安全码",
+          "card_verification_value_explanation": "卡背面的 3 位安全码。美国运通卡正面有 4 位代码。",
+          "card_security_notice": "所有交易都是安全和加密的。"
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "请输入名片上显示的姓名",
+          "credit_card_number_invalid": "请输入有效的卡号",
+          "credit_card_expiry_invalid": "请输入有效的卡有效期",
+          "credit_card_verification_value_blank": "输入您卡的 CVV 或安全码"
+        }
+      },
+      "add_payment_method": {
+        "title": "添加付款方式",
+        "payment_method_added_confirmation": "添加付款方式",
+        "billing_address": {
+          "title": "帐单地址",
+          "add_billing_address_button": "添新",
+          "add_billing_address_button_accessibility_label": "添加新的账单地址",
+          "choose_billing_address_from_list_button": "从列表中选择",
+          "choose_billing_address_from_list_button_accessibility_label": "请从列表中选择您的账单地址",
+          "missing_billing_address_error_message": "请指定您的账单地址"
+        }
+      },
+      "expires_soon": "此卡即将过期",
+      "expired": "此卡已过期",
+      "card_update_consent": "此付款方式将被保存以供将来购买。"
+    },
+    "payment_method_brands": {
+      "visa": "签证",
+      "mastercard": "万事达",
+      "shoppay": "商店支付",
+      "applepay": "苹果支付"
+    }
+  },
+  "collections": {
+    "general": {
+      "all_of_collection": "查看全部",
+      "view_all_products_html": "查看全部<br>{{ count }}产品",
+      "see_more": "展示更多",
+      "see_less": "显示较少",
+      "no_matches": "抱歉，该集合中没有产品。",
+      "items_with_count": {
+        "one": "{{ count }}产品",
+        "other": "{{ count }}产品"
+      }
+    },
+    "sorting": {
+      "title": "种类"
+    },
+    "filters": {
+      "title_tags": "筛选",
+      "all_tags": "所有产品",
+      "categories_title": "类别"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "姓名",
+      "email": "电子邮件",
+      "phone": "电话号码",
+      "message": "信息",
+      "send": "发送",
+      "post_success": "感谢您联系我们。我们会尽快回复您。"
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "我的账户",
+      "details": "帐户详细资料",
+      "view_addresses": "查看地址",
+      "return": "返回账户"
+    },
+    "activate_account": {
+      "title": "激活账户",
+      "subtext": "创建密码以激活您的帐户。",
+      "password": "密码",
+      "password_confirm": "确认密码",
+      "submit": "激活账户",
+      "cancel": "拒绝邀请"
+    },
+    "addresses": {
+      "title": "地址",
+      "default": "默认",
+      "add_new": "添加地址",
+      "edit_address": "修改地址",
+      "first_name": "名",
+      "last_name": "姓",
+      "company": "公司",
+      "address1": "地址1",
+      "address2": "地址2",
+      "city": "城市",
+      "country": "国家",
+      "province": "省份",
+      "zip": "邮政编码",
+      "phone": "电话",
+      "set_default": "设为默认地址",
+      "add": "添加地址",
+      "update": "更新地址",
+      "cancel": "取消",
+      "edit": "编辑",
+      "delete": "删除",
+      "delete_confirm": "您确定要删除此地址吗？"
+    },
+    "login": {
+      "title": "登录",
+      "email": "电子邮件",
+      "password": "密码",
+      "forgot_password": "忘记密码？",
+      "sign_in": "登入",
+      "cancel": "返回商店",
+      "guest_title": "以访客身份继续",
+      "guest_continue": "继续"
+    },
+    "orders": {
+      "title": "订单历史",
+      "order_number": "命令",
+      "date": "日期",
+      "payment_status": "支付状态",
+      "fulfillment_status": "履行状态",
+      "total": "全部的",
+      "none": "您还没有下任何订单。"
+    },
+    "order": {
+      "title": "订单{{ name }}",
+      "date_html": "放置于{{ date }}",
+      "cancelled_html": "订单于{{ date }}取消",
+      "cancelled_reason": "原因： {{ reason }}",
+      "billing_address": "帐单地址",
+      "payment_status": "支付状态",
+      "shipping_address": "收件地址",
+      "fulfillment_status": "履行状态",
+      "discount": "折扣",
+      "shipping": "船运",
+      "tax": "税收",
+      "product": "产品",
+      "price": "价格",
+      "quantity": "数量",
+      "total": "全部的",
+      "fulfilled_at_html": "完成{{ date }}",
+      "subtotal": "小计"
+    },
+    "recover_password": {
+      "title": "重置你的密码",
+      "email": "电子邮件",
+      "submit": "提交",
+      "cancel": "取消",
+      "subtext": "我们将向您发送一封电子邮件以重置您的密码。",
+      "success": "我们已向您发送一封电子邮件，其中包含更新密码的链接。"
+    },
+    "reset_password": {
+      "title": "重置账户密码",
+      "subtext": "输入{{ email }}的新密码",
+      "password": "密码",
+      "password_confirm": "确认密码",
+      "submit": "重设密码"
+    },
+    "register": {
+      "title": "创建账户",
+      "first_name": "名",
+      "last_name": "姓",
+      "email": "电子邮件",
+      "password": "密码",
+      "submit": "创造",
+      "cancel": "返回商店"
+    }
+  },
+  "home_page": {
+    "onboarding": {
+      "product_title": "示例产品",
+      "product_description": "此区域用于描述您的产品的详细信息。告诉客户您产品的外观、感觉和风格。添加有关颜色、使用的材料、尺寸和制造地点的详细信息。",
+      "collection_title": "示例集合",
+      "no_content": "此部分当前不包含任何内容。"
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "大车"
+    },
+    "customer": {
+      "account": "帐户",
+      "log_out": "登出",
+      "log_in": "登录",
+      "create_account": "创建账户"
+    }
+  },
+  "products": {
+    "general": {
+      "color_swatch_trigger": "颜色",
+      "size_trigger": "尺寸",
+      "size_chart": "尺码表",
+      "save_html": "节省{{ saved_amount }}",
+      "collection_return": "返回{{ collection }}",
+      "next_product": "下一个： {{ title }}",
+      "sale": "销售",
+      "sale_price": "销售价格",
+      "regular_price": "正常价格",
+      "from_text_html": "从{{ price }}",
+      "recent_products": "最近浏览过的",
+      "reviews": "点评"
+    },
+    "product": {
+      "description": "描述",
+      "in_stock_label": "库存，准备出货",
+      "stock_label": {
+        "one": "库存不足 - 还剩{{ count }}件商品",
+        "other": "库存不足 - 剩余{{ count }}件商品"
+      },
+      "sold_out": "售罄",
+      "unavailable": "不可用",
+      "quantity": "数量",
+      "add_to_cart": "添加到购物车",
+      "preorder": "预购",
+      "include_taxes": "含税。",
+      "shipping_policy_html": "<a href=\"&lt;span%20class=\" notranslate>{{ link }} '&gt;结账时计算运费<\/a>。",
+      "will_not_ship_until": "准备发货{{ date }}",
+      "will_be_in_stock_after": "恢复库存{{ date }}",
+      "waiting_for_stock": "库存在路上",
+      "view_in_space": "在您的空间中查看",
+      "view_in_space_label": "在您的空间中查看，在增强现实窗口中加载项目"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "查看店铺信息",
+      "check_other_stores": "查看其他商店的可用性",
+      "pick_up_available": "可取货",
+      "pick_up_currently_unavailable": "目前无法取件",
+      "pick_up_available_at_html": "<strong>{{ location_name }}<\/strong>可取货",
+      "pick_up_unavailable_at_html": "目前无法在<strong>{{ location_name }}<\/strong>取货"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title_html": "这是您在{{ shop }}的{{ value }}礼品卡！",
+      "subtext": "这是您的礼品卡！",
+      "disabled": "残疾人",
+      "expired": "于{{ expiry }}过期",
+      "active": "于{{ expiry }}到期",
+      "redeem": "在结账时使用此代码兑换您的礼品卡",
+      "shop_link": "开始购物",
+      "print": "打印",
+      "add_to_apple_wallet": "添加到苹果钱包"
+    }
   }
 }
