@@ -1097,10 +1097,255 @@
         "one_images_accessibility_label": "订单包含{{lineItemName1}}",
         "two_images_accessibility_label": "订单包含{{lineItemName1}}和{{lineItemName2}}",
         "three_images_accessibility_label": "订单包括{{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
-        "four_images_accessibility_label": "订单包括{{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}"
-      }
+        "four_images_accessibility_label": "订单包括{{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "no_filtered_results_description": "删除或调整过滤器并确认订单",
+        "no_filtered_results_title": "无优化结果",
+        "estimated_shortform": "预计日期： {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "逾期付款",
+            "due": "付款截止日期： {{date}}",
+            "due_today": "今天到期付款",
+            "due_without_date": "付款日期",
+            "due_on_fulfillment": "付款应在履行时到期",
+            "pay_to_confirm": "付款并确认",
+            "payment_not_due": "未付"
+          },
+          "table_view": {
+            "overdue": "逾期",
+            "due": "截止日期： {{date}}",
+            "due_today": "今天截止",
+            "paid": "有薪酬的",
+            "due_without_date": "未付",
+            "due_on_fulfillment": "履行时间",
+            "pay_to_confirm": "付款并确认",
+            "payment_not_due": "未付"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "当前排序： {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "订单包含数量{{lineItemQuantity1}} {{lineItemName1}} }",
+          "two_products_accessibility_label": "订单包含{{lineItemName1}}数量{{lineItemQuantity1}} , {{lineItemName2}}数量{{lineItemQuantity2}}",
+          "three_products_accessibility_label": "订单包含{{lineItemName1}}的{{lineItemQuantity1}} ， {{lineItemName2}} {{lineItemQuantity2}} ， {{lineItemName3}}的{{lineItemQuantity3}}",
+          "four_products_accessibility_label": "订单有数量{{lineItemName1}} {{lineItemQuantity1}} ，数量{{lineItemName2}} {{lineItemQuantity2}} {{lineItemName3}} {{lineItemQuantity3}} ，数量{{lineItemName4}}包含{{lineItemQuantity4}}",
+          "five_products_accessibility_label": "订单有数量{{lineItemName1}} {{lineItemQuantity1}} ，数量{{lineItemName2}} {{lineItemQuantity2}} {{lineItemName3}} {{lineItemQuantity3}} ，数量{{lineItemName4}} {{lineItemQuantity4}} ，其中包含 {{lineItemName5 {{lineItemName5}} {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "订单包括{{lineItemName1}}数量{{lineItemQuantity1}} ， {{lineItemName2}}数量{{lineItemQuantity2}} ， {{lineItemName3}}数量{{lineItemQuantity3}} ， {{lineItemName4}}数量包含{{lineItemQuantity4}} , {{lineItemName5}}数量{{lineItemQuantity5}} , {{lineItemName6}}数量{{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "订单有数量{{lineItemName1}} {{lineItemQuantity1}} ，数量{{lineItemName2}} {{lineItemQuantity2}} {{lineItemName3}} {{lineItemQuantity3}} ，数量{{lineItemName4}}包括{{lineItemQuantity4}} ， {{lineItemName5}}数量{{lineItemQuantity5}} ， {{lineItemName6}}数量{{lineItemQuantity6}}等。",
+          "view_order_details": "查看订单详情",
+          "next": "到下一个"
+        },
+        "show_order_actions_accessibility_label": "查看订单 ( {{name}} ) 的订单操作",
+        "empty_state_title_for_pending_orders": "没有挂单",
+        "more_than_four_products_accessibility_label": "该订单有超过{{lineItemName1}} 、 {{lineItemName2}} 、 {{lineItemName3}}和{{numberOfAdditionalProducts}}产品。",
+        "plus_more_products": "超过{{numberOfAdditionalProducts}}产品",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "查看订单详情",
+            "estimated_delivery": "预计交货日期： {{date}}",
+            "last_updated": "最后更新： {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "预计交货日期： {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "该订单有{{lineItemName1}} 、 {{lineItemName2}}和{{numberOfAdditionalProducts}}产品。",
+        "plus_more": "+ {{numberOfAdditionalProducts}}"
+      },
+      "order_status": {
+        "canceled_description": "您的订单已于{{date}}取消。",
+        "canceled_label": "取消",
+        "canceled_title": "订单已取消",
+        "come_back": "请查看此页面以了解运输状态。",
+        "company_tracking_number": "{{company}}的追踪号码：",
+        "confirmed_label": "确认的",
+        "confirmed_title": "订单已确认",
+        "delivered_description": "此包裹已送达。",
+        "delivered_label": "发表",
+        "delivered_title": "您的包裹已送达",
+        "estimated_delivery": "预计交货日期： {{date}}",
+        "in_review_description": "如果我们需要更多信息或您的订单得到确认，我们会通知您。",
+        "in_review_label": "确认",
+        "in_review_title": "确认您的订单",
+        "no_tracking_number": "此包裹没有追踪号码。",
+        "on_its_way_label": "交货中",
+        "on_its_way_title": "您的产品正在交付中",
+        "out_for_delivery_label": "交货中",
+        "out_for_delivery_title": "您的包裹正在派送中",
+        "resume_tracking": "恢复跟踪",
+        "submitted_label": "发送",
+        "track_shipment": "跟踪您的包裹",
+        "request_return": "退货要求",
+        "attempted_delivery_label": "缺席收回",
+        "attempted_delivery_description": "无法交付。",
+        "confirmed_description": "您的订单已收到。",
+        "on_its_way_description": "这个包裹正在送达。",
+        "out_for_delivery_description": "这个包裹正在送达。",
+        "preparing_for_shipping_label": "准备发货",
+        "preparing_for_shipping_description": "这些物品目前正在准备装运。",
+        "ready_for_pickup_label": "准备取货",
+        "ready_for_pickup_description": "您现在可以拿起这些物品。",
+        "picked_up_label": "在商店取货",
+        "picked_up_description": "我们收到了这些物品。",
+        "submitted_description": "请检查您的订单和付款方式。",
+        "last_updated": "最后更新： {{date}}",
+        "multiple_shipments_label": "多次发货",
+        "view_order_for_details": "查看订单详情"
+      },
+      "status_mark_as_delivered": "标记为已送达",
+      "status_title": "订单状态",
+      "buy_again": "回购",
+      "buy_again_accessibility_label": "回购订单 ( {{orderId}} )",
+      "manage_accessiblity_label": "管理订单 ( {{orderId}} )",
+      "group_title_label": "{{groupTitle}}的一部分"
     },
-    "enable_javascript": "要查看，请在您的浏览器设置中启用 JavaScript 或使用其他浏览器登录。"
+    "enable_javascript": "要查看，请在您的浏览器设置中启用 JavaScript 或使用其他浏览器登录。",
+    "order_details": {
+      "addresses_section_title": "计费和运输",
+      "billing_address": "帐单地址",
+      "card_ending_with": "最后 4 位数字{{lastDigits}}",
+      "contact": "联系地址",
+      "hide_items": "隐藏物品",
+      "loading": "加载订单详情",
+      "loading_finished_accessibility_message": "已加载订单详情",
+      "payment": {
+        "status_in_review": "确认后付款期限",
+        "status_unpaid": "到期付款： {{date}}",
+        "title": "沉降"
+      },
+      "shipping": {
+        "address": "收件地址",
+        "address_map_marker": "收件地址",
+        "method": "邮寄方式",
+        "summary": "送货"
+      },
+      "show_items": "显示项目",
+      "subtitle": "确认日期： {{date}}",
+      "subtotal": "小计",
+      "summary_list_title_accessibility_label": "订单项目",
+      "summary_title": "订单概要",
+      "summary_totals_title_accessibility_label": "合计订单",
+      "title": "订单（ {{name}} ）",
+      "total": "全部的",
+      "unit_price": "（ {{price}} \/单位）",
+      "location": "地点",
+      "not_applicable": "不适用",
+      "fully_refunded_label": "已退款",
+      "partially_refunded_label": "部分退款",
+      "refunded_amount": "已退款",
+      "discount": "折扣",
+      "no_data": "没有任何",
+      "pagination": {
+        "load_more": "装载更多",
+        "load_more_accessibility_label": "加载更多项目",
+        "loading_accessibility_label": "加载项目"
+      },
+      "returns": {
+        "expand_events_label": "查看详情",
+        "hide_events_label": "隐藏细节",
+        "print_shipping_label": "打印运输标签",
+        "tracking_number": "追踪号码：",
+        "ineligible_return_with_policy_message": "此订单中的商品不符合退货条件。有关更多信息，请参阅{{returnAndRefundPolicyLinkText}} 。",
+        "ineligible_return_without_policy_message": "此订单中的商品不符合退货条件。",
+        "return_and_refund_link_text": "退货和退款政策",
+        "return_and_refund_modal_header": "退货和退款政策"
+      },
+      "request_return_failed": "处理您的请求时出现问题。请再试一次。",
+      "mobile_summary_toggle_button": {
+        "open": "查看订单摘要",
+        "closed": "隐藏订单摘要"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "查看详情",
+        "expand_events_accessibility_label": "查看订单的运输详细信息",
+        "hide_events_label": "隐藏细节",
+        "hide_events_accessibility_label": "隐藏订单运送详情"
+      },
+      "show_order_summary": "查看订单摘要",
+      "hide_order_summary": "隐藏订单摘要"
+    },
+    "addresses": {
+      "add_button": "添加地址",
+      "address_deleted_notification": "地址已删除",
+      "cancel_adding_address_accessibility_label": "取消 添加地址",
+      "cancel_deletion_button": "取消",
+      "cancel_deletion_button_accessibility_label": "取消删除{{address}}",
+      "default_address": {
+        "title": "默认地址",
+        "title_accessibility_label": "默认地址： {{address}}"
+      },
+      "delete_button": "删除",
+      "delete_button_accessibility_label": "移除{{address}}",
+      "delete_confirmation_button": "删除地址",
+      "delete_confirmation_button_accessibility_label": "移除{{address}}",
+      "delete_confirmation_message": "您想删除您的地址吗？现有订单不会受到影响。",
+      "edit_button": "编辑",
+      "edit_button_accessibility_label": "编辑{{address}}",
+      "edit_section_accessibility_label": "编辑{{address}}",
+      "loading_accessibility_message": "加载地址",
+      "loading_addresses_accessibility_message": "加载地址",
+      "loading_billing_accessibility_message": "加载账单地址",
+      "loading_finished_accessibility_message": "已加载新地址页",
+      "loading_shipping_accessibility_message": "正在加载送货地址",
+      "pagination": {
+        "load_more": "装载更多",
+        "load_more_accessibility_label": "加载更多地址"
+      },
+      "save_new_address_accessibility_label": "保存地址",
+      "title": "地址",
+      "delete_confirmation_title": "您确定要删除该地址吗？",
+      "delete_confirmation_description": "现有订单不会受到影响。",
+      "edit_modal_title": {
+        "default": "编辑地址",
+        "billing": "编辑您的账单地址",
+        "shipping": "编辑您的送货地址"
+      },
+      "add_address_banner": "添加要在结帐时使用的地址",
+      "billing_address_dropdown_placeholder": "帐单地址"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "关闭候选人",
+      "auto_complete_title": "候选人",
+      "billing_address": "用作账单地址",
+      "cancel": "取消",
+      "cancel_accessibility_label": "取消编辑地址 ( {{address}} )",
+      "creation_success_notification": "地址已添加",
+      "default_address": "这是默认地址",
+      "default_address_creation_success_notification": "添加了默认地址",
+      "default_address_update_success_notification": "默认地址已更新",
+      "loading_add_form_accessibility_message": "加载新地址表",
+      "loading_edit_form_accessibility_message": "加载编辑地址表单",
+      "loading_finished_accessibility_message": "已加载地址表",
+      "save": "保持",
+      "save_accessibility_label": "地址（保存{{address}}",
+      "section_title_accessibility_label": "添加地址",
+      "update_success_notification": "地址已更新",
+      "attention": "地址",
+      "attention_help_text": "个人姓名或部门名称",
+      "loading_form_accessibility_message": "加载地址表"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "公司名称",
+        "company_card_section_accessibility_label": "公司"
+      },
+      "locations": {
+        "contact_email": "电子邮件",
+        "contact_list_title": "成员",
+        "contact_name": "姓名",
+        "contact_permissions": "权威",
+        "contact_phone_number": "电话号码",
+        "location_picker_label": "地点名称",
+        "net_payment_terms_description": "{{name}} ：在{{numberOfDays}}天内到期",
+        "payment_details_title": "付款详情",
+        "payment_terms": "结算期",
+        "permissions_label": "你的权威",
+        "permissions_title": "权威",
+        "section_title": "地点",
+        "shipping_address_required": "将您的送货地址添加到此位置以启动您的订单。",
+        "tax_details_title": "税务详情",
+        "tax_id": "纳税人识别号"
+      }
+    }
   },
   "collections": {
     "general": {
