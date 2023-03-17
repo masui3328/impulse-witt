@@ -242,7 +242,115 @@
         "card_start_label": "发行日期（月\/年）",
         "card_start_placeholder": "发行日期（月\/年）",
         "card_issue_number_label": "发行数量",
-        "card_issue_number_placeholder": "发行数量"
+        "card_issue_number_placeholder": "发行数量",
+        "card_change_label": "改变",
+        "ends_with_label": "最后一位数：%{last_digits}",
+        "masked_digits_label": "•••• ％{最后一位数字}",
+        "saved_by_payment_method": "使用 %{payment_method} 保存",
+        "pay_with_payment_method": "使用 %{payment_method} 付款",
+        "same_billing_address_label": "跟邮寄地址一样",
+        "different_billing_address_label": "使用不同的账单地址",
+        "free_order_notice_html": "您的订单是<strong>免费的<\/strong>。无需付款。",
+        "express_checkout_free_order": "免费订单不收取任何费用",
+        "order_covered_by_gift_cards_notice": {
+          "one": "订单是用礼品卡支付的。",
+          "other": "您的订单是用礼品卡下的。"
+        },
+        "offsite_gateway_redirect_hint": "点击“%{button_label}”后，您将被重定向至 %{gateway_label} 以进行安全支付。",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} 总计 %{total_shop_price}",
+        "billing_address_title": "帐单地址",
+        "billing_address_description": "选择与您的卡或付款方式相匹配的地址。",
+        "billing_address_description_no_shipping_address": "请输入与您的银行卡或付款方式相匹配的地址。",
+        "no_js_credit_card_fields_redirect_hint": "您将被重定向以添加您的付款信息。",
+        "card_fields_container_prefix": "表单容器：",
+        "card_fields_unavailable_html": {
+          "one": "目前无法使用信用卡和借记卡付款。<br>请<a href=\"%%7Bcurrent_url%7D\">刷新此页面或<\/a>重试。",
+          "other": "目前无法使用信用卡和借记卡付款。<br>请<a href=\"%%7Bcurrent_url%7D\">刷新此页面或<\/a>尝试其他付款方式。"
+        },
+        "card_fields_processing_error": "付款过程中出现问题。请刷新此页面或检查您的互联网连接。",
+        "technical_error": "由于技术问题，我们目前无法处理您的付款。请在几分钟后再试一次。",
+        "no_method_error": "这家商店目前无法接受付款。",
+        "not_configured_error": "这家商店目前无法接受付款。",
+        "missing_credit_card_error": "输入您的银行卡详细信息以完成付款",
+        "generic_incorrect_card_info": "我们无法验证您的付款详细信息。请检查您的银行卡详细信息，然后重试。",
+        "sofort_label": "软软",
+        "paypal_label": "贝宝",
+        "ideal_label": "理想的",
+        "bank_picker_label": "银行",
+        "klarna_pay_now_label": "立即使用 Klarna 付款",
+        "klarna_pay_later_label": "使用 Klarna 进行后付费",
+        "bancontact_label": "联系方式",
+        "giropay_label": "支付宝",
+        "klarna_slice_it_label": "与 Klarna 一起融资",
+        "card_expiration_month_label": "到期日（月）",
+        "card_expiration_year_label": "有效期（年）",
+        "card_information_notice": "所有交易都是加密和安全的。信用卡信息永远不会被存储。",
+        "credit_card_start_month": "发行月份",
+        "credit_card_start_year": "发行年份",
+        "billing_address_not_supported_for_payment_method_error": "指定的付款方式不适用于此账单地址和币种。请尝试其他付款方式。",
+        "change_currency_section_description": "选择货币选项",
+        "no_real_orders_dev_store": "本店不接受实物订单或实物付款。",
+        "subscription_agreement_label_html": "我了解我同意订阅。订阅会结束吗？\n它将按照列出的价格和频率更新，直至<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%%7Bpolicy_href%7D\">取消<\/a>。\n",
+        "waiting_on_payment_methods": "正在获取可用的付款方式...",
+        "apple_pay_payment_error": "我们无法完成您的付款。请重试或使用其他付款方式。",
+        "subscription_card_update_agreement_label": "更改您的付款方式将更新您的订阅和定期付款。",
+        "card_security_vault_notice": "我需要更多信息以供将来付款。所有交易都是加密和安全的。",
+        "taxes_not_included": "不含税",
+        "no_taxes_banner_content": "此订单不收取任何税款。一旦您收取了款项，您将无法加税。",
+        "card_update_label": "更新卡",
+        "paypal": {
+          "connect": "单击以链接您的 PayPal 帐户"
+        },
+        "subscription_agreement_label": "我了解我同意订阅。您的订阅将以显示的价格和频率续订，直到终止或 %{cancelled}。",
+        "subscription_agreement_cancelled": "取消",
+        "card_expired": "已到期",
+        "card_verification_confirm": "请输入您卡的安全码以验证您的身份。",
+        "different_credit_card_label": "请使用另一张信用卡",
+        "apple": {
+          "connect": "单击以链接您的 Apple Pay 帐户",
+          "not_available": "Apple Pay 在此浏览器中不可用。您必须使用 Apple 设备上的 Safari 来关联您的 Apple Pay 账户。"
+        },
+        "account_connected": "您的帐户已关联。",
+        "billing_address_associated_with_mandate": "使用与您的付款方式关联的地址",
+        "billing_address_associated_with_mandate_info": "如果您想更改账单地址，请删除并重新输入您的信用卡信息",
+        "delete_customer_mandate_modal_cancel": "取消",
+        "credit_card_vaulting_sign_in_banner_title": "保存信用卡信息",
+        "credit_card_vaulting_sign_in_banner_info": "登录或创建一个帐户以保存您的信用卡信息以备将来购买。",
+        "credit_card_vaulting_sign_in_banner_button_label": "登录",
+        "expiry_long": "（过期时间：%{月}\/%{年}）",
+        "expiry_short": "（过期时间：%{月}\/%{年}）",
+        "ftd_vault_credit_card_label": "将此信用卡信息存储在我的帐户中以便快速结账",
+        "delete_customer_mandate_modal_title": "您确定要删除此支付卡吗？",
+        "delete_customer_mandate_modal_body": "如果删除此卡，则需要重新添加它才能使用它进行付款。",
+        "delete_customer_mandate_modal_confirm": "取出卡片",
+        "google": {
+          "connect": "点击链接您的 Google Pay 帐户",
+          "error_authorizing": "授权付款时出错"
+        },
+        "klarna_label": "克拉纳",
+        "mor_disclaimer_html": "单击下方完成您的订单，即表示您同意作为本次交易的记录商家从 Global-e 购买商品，并遵守 Global-e 的<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%%7Bterms_href%7D\">服务条款<\/a>和 <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%%7Bpolicy_href%7D\">隐私政策。<\/a>我已经完成了。 Global-e 是 %{shop_name} 的国际履行服务提供商。\n",
+        "purchase_options_card_update_agreement_label_html": "更新您的付款方式，即表示您授权根据该商店的<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%%7Bpolicy_href%7D\">取消政策<\/a>处理订阅和后付费购买。",
+        "multibanco_label": "多银行",
+        "receiver_payment_experience_hint": "下订单后，我们会通知您付款详情。请在 %{due_days} 天内使用 Multibanco 或在线付款。",
+        "pending_payment": {
+          "due_notice": "%{amount_due} 将于 %{due_date} 到期。",
+          "multibanco": {
+            "instruction_html": "使用以下详细信息通过 Multibanco 或在线进行付款。如有疑问或更新您的付款信息，请联系 %{contact_us}。",
+            "entity": "实体",
+            "reference": "参考",
+            "amount": "金钱数额",
+            "find_nearest_atm": "查找最近的 ATM"
+          }
+        },
+        "purchase_options_agreement_label": "我了解我购物车中的一件或多件商品是后付费购买或订阅。继续操作即表示您同意 %{cancellation_policy_label} 并将按照本页所列的价格、时间和日期向您选择的付款方式收费，直到订单完成或在允许的情况下取消。您同意这样做。",
+        "update_payment_method": "更新付款方式",
+        "paypal_modal": {
+          "order_contains_subscriptions": "订阅",
+          "order_contains_fixed_selling_plans": "总价可能不包括税费、运费、滞纳金和一些折扣。我们将继续查看今天要支付的金额。"
+        },
+        "purchase_options_agreement_label_html": "我了解我购物车中的一件或多件商品是后付费购买或订阅。通过继续我得到\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%%7Bpolicy_href%7D\">取消政策<\/a>\n并同意所选的付款方式将按照本页所示的价格、时间和日期收取费用，直到订单完成或在允许的情况下被我取消。我接受。\n",
+        "payment_method_saved": "付款方式已保存",
+        "card_vaulted_company_location": "此位置的卡片已保存"
       },
       "field_errors": {
         "handle_email_invalid": "请输入有效的电子邮件地址",
@@ -320,7 +428,8 @@
         "payment_gateway_unsupported_for_country": "此付款方式在目的地国家\/地区不可用。",
         "purchase_options_agreement_blank": "同意后付费或订阅条款以继续购买。",
         "payment_gateway_unsupported_for_deferred_purchase_options": "此付款方式不适用于后付费购买选项。",
-        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "后付费购买选项不支持礼品卡。"
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "后付费购买选项不支持礼品卡。",
+        "handle_phone_invalid": "请输入一个有效的电话号码"
       },
       "payment_errors": {
         "generic_error": "处理您的付款时出现问题。请重试或使用其他付款方式。",
@@ -683,6 +792,14 @@
       },
       "change_country": {
         "cart_updated_based_on_country": "您的购物车已根据您的送货国家更新。"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "当前余额 %{amount}",
+        "credit_card_expires_on_notice": "过期时间：%{月}\/%{年}",
+        "express_payment_gateway_label": "表达",
+        "manual_payment_gateway_label": "手动的",
+        "billing_address_title": "帐单地址",
+        "free_label": "自由的"
       }
     },
     "links": {
