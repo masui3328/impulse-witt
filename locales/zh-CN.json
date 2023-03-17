@@ -473,6 +473,24 @@
             "confirmed": {
               "guaranteed_on_time": "保证在 %{date} 之前交付",
               "on_time": "%{date} 前交货"
+            },
+            "in_transit": {
+              "guaranteed_on_time": "保证在 %{date} 之前交付",
+              "on_time": "%{date} 前交货",
+              "guaranteed_delayed": "包裹没有按时到达 %{date}。包裹到达后，您可以要求赔偿：",
+              "delayed": "%{date} 的预定交付有延迟。"
+            },
+            "out_for_delivery": {
+              "guaranteed_on_time": "保证在 %{date} 之前交付",
+              "on_time": "%{date} 前交货",
+              "guaranteed_delayed": "包裹没有按时到达 %{date}。包裹到达后，您可以要求赔偿：",
+              "delayed": "%{date} 的预定交付有延迟。"
+            },
+            "delivered": {
+              "guaranteed_on_time": "由于准时交货",
+              "on_time": "由 %{date} 交付",
+              "guaranteed_delayed": "包裹是在 %{date} 之后送达的。由于以下原因，您可以就交货延迟提出索赔：",
+              "delayed": "已于 %{date} 交付，原预计于 %{original_delivery_date}"
             }
           }
         }
@@ -538,6 +556,133 @@
       },
       "change_cart_localization": {
         "verify_shipping_address": "国家\/地区已更新。请输入您的送货地址以继续结帐。"
+      },
+      "review": {
+        "title": "确认",
+        "review_title": "订单确认",
+        "checkout_as_guest": "以客人身份购买",
+        "blocks": {
+          "contact_method_title": "联系地址",
+          "billing_address_title": "发票",
+          "shipping_address_title": "收件地址",
+          "payment_method_title": "支付",
+          "change_link_label": "改变",
+          "change_contact_method_link_label": "更改联系信息",
+          "change_billing_address_link_label": "更改账单地址",
+          "change_shipping_address_link_label": "修改配送地址",
+          "change_shipping_method_link_label": "更改送货方式",
+          "change_payment_method_link_label": "更改付款方式",
+          "pick_up_in_store_shipping_method_html": "到店取货：%{location_name}"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "通过电子邮件接收新闻和优惠",
+        "unsubscribe": {
+          "title": "我们已取消您的注册。",
+          "description": "从现在开始，我们将不再向客户发送购物车提醒通知。"
+        },
+        "accept_sms_checkbox_label": "通过文本接收新闻和优惠",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "隐私政策",
+            "terms_of_service": "服务条款",
+            "description_html": "通过短信注册，即表示您同意通过您输入的电话号码定期接收自动营销信息，包括购物车提醒。同意不是购买的条件。要取消订阅，请回复停止。回复帮助寻求帮助。消息频率各不相同。可能会收取信息和数据费用。显示 %{privacy_policy_link} 和 %{terms_of_service_link}。",
+            "description_transactional_html": "通过短信接收订单确认和发货更新。要取消订阅，请回复停止。回复帮助寻求帮助。消息频率各不相同。可能会收取信息和数据费用。显示 %{privacy_policy_modal_link} 和 %{terms_of_service_modal_link}。"
+          }
+        },
+        "post_accept_marketing_checkbox_label": "注册接收电子邮件新闻和优惠",
+        "pending_accept_marketing_checkbox_label": "查看您的电子邮件以获取新闻并提供订阅"
+      },
+      "shop_policies": {
+        "refund_policy": "退款政策",
+        "privacy_policy": "隐私政策",
+        "terms_of_service": "服务条款",
+        "legal_notice": "基于特定商业交易法的符号",
+        "shipping_policy": "运输政策",
+        "terms_of_sale": "销售条款",
+        "subscription_policy": "购买选项取消政策",
+        "purchase_options_policy": "采购选择政策",
+        "contact_information": "联系信息"
+      },
+      "remember_me": {
+        "shopify_pay_label": "商店付款",
+        "save": "节省",
+        "title": "在此设备上保存信息",
+        "label": "为下次购买保存信息",
+        "description_html": "下次您使用 Shopify 在商店结账时，我们会向您发送授权码，以帮助您使用 Shop Pay 进行安全购买。",
+        "mobile_phone_icon_alt": "手机",
+        "mobile_phone_number": "手机号码",
+        "terms_and_privacy_html": "继续即表示您同意 Shop Pay 的 %{privacy_href} 和 %{terms_href}。",
+        "errors": {
+          "optin": "我无法使用 Shop Pay"
+        },
+        "privacy_policy": "隐私政策",
+        "terms_of_service": "服务条款",
+        "installments": {
+          "paid_in_installments": "我使用 Shop Pay 分期付款。",
+          "view_schedule": "查看时间表"
+        },
+        "external_acessibility_label": "（打开新窗口）"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "订单 %{order_name} 的付款金额",
+        "changes_summary": {
+          "added": {
+            "one": "添加",
+            "other": "添加了 %{count}"
+          },
+          "removed": "删除",
+          "subtracted": "%{count} 已删除"
+        },
+        "additional_payment_requested": "需要 %{total_outstanding} 付款",
+        "checkout_review_and_pay": "您对 %{order_name} 的订单已更新。确认这些更改后，请完成付款并确认您的订单。",
+        "order_updated_on": "您的订单更新于 %{last_edited_at}。",
+        "order_review_and_pay": "您的订单已更新。确认后，完成付款并确认订单。",
+        "pay_now": "现在付款"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "%{amount} 将从您的信用卡中扣除。",
+        "payment_total_label": "结算总额",
+        "change_currency_link": "更改为 %{currency_name}",
+        "card_provider_fx_charges_warning": "您的发卡机构可能会对 %{currency_code} 交易收取费用。",
+        "currency_not_supported_by_shop": "所选货币不再可用。所有价格现在都以 %{currency_code} 显示。"
+      },
+      "tips": {
+        "title": "支持商店",
+        "description": "表示对 %{shop_name} 团队的支持",
+        "presets_description": "选择您的小费百分比",
+        "custom_label": "定制芯片",
+        "add_tip": "支持商店",
+        "update_tip": "更新量",
+        "message": "非常感谢。",
+        "no_tip_label": "没有任何"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "购买 %{product_name}",
+          "one": "购买 %{product_name} 和 %{count} 件其他商品",
+          "other": "购买 %{product_name} 和 %{count} 件其他商品"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "附加信息"
+        }
+      },
+      "post_purchase": {
+        "page_title": "购买后",
+        "title": "购买后",
+        "escape_confirmation": "我支付了我的订单。",
+        "escape_action": "查看您的订单确认 ›",
+        "components": {
+          "close": "关闭",
+          "expand": "展示更多",
+          "processing": "加工...",
+          "submit": "发送"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "您的购物车已根据您的送货国家更新。"
       }
     },
     "links": {
