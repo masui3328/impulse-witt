@@ -476,6 +476,162 @@
             }
           }
         }
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} 每 %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "首次付款 %{total_price}",
+            "other": "前 %{count} 笔付款的 %{total_price}"
+          },
+          "following_cycles": ", 然后 %{total_price} 每 %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "other": "%{count} 天"
+          },
+          "week": {
+            "other": "%{count} 周"
+          },
+          "month": {
+            "other": "%{count} 个月"
+          },
+          "year": {
+            "other": "%{count} 年"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "初始付款 (%{total_price_with_discount})，加上 %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", 然后 %{count} 期 %{total_price}",
+            "other": ", 然后每 %{count} 分期付款 %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "付款方式",
+        "title": "付款方式",
+        "update_card_button_label": "更新卡",
+        "delete_customer_mandate": {
+          "generic_error": "处理您的请求时出现问题。",
+          "success_message": "您的付款方式已成功删除"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "记录商家的条款和条件",
+        "privacy_policy": "记录隐私政策的商户"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "产品不可用",
+          "other": "产品不可用"
+        },
+        "products_not_available": {
+          "one": "该产品在您所在的国家\/地区不可用，将从您的购物车中移除。",
+          "other": "这些商品在您所在的国家\/地区不可用，将从您的购物车中移除。"
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "该产品在您所在的国家\/地区不可用。",
+          "other": "这些产品在您所在的国家\/地区不可用。"
+        },
+        "unavailable_label": "无法使用"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "国家\/地区已更新。请输入您的送货地址以继续结帐。"
+      }
+    },
+    "links": {
+      "powered_by_shopify": "由 Shopify 提供支持",
+      "learn_more": "点击此处了解详情"
+    },
+    "feed": {
+      "more": "而且"
+    },
+    "attributes": {
+      "email": "电子邮件",
+      "password": "密码",
+      "password_confirmation": "再次确认密码",
+      "body": "身体",
+      "signature": "地址"
+    },
+    "addresses": {
+      "zip_code": "邮政编码",
+      "postal_code": "邮政编码",
+      "postcode": "邮政编码",
+      "pincode": "PIN码",
+      "region": "地区",
+      "prefecture": "都道府县",
+      "state_and_territory": "州\/领地",
+      "emirate": "酋长国",
+      "governorate": "行政区",
+      "confirm": "您确定要删除此地址吗？"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "推荐",
+        "best_selling": "畅销书",
+        "az": "按字母顺序，A-Z",
+        "za": "按字母顺序，ZA",
+        "price_ascending": "低价订货",
+        "price_descending": "高价",
+        "date_ascending": "较旧的项目订单",
+        "date_descending": "新到货订单"
+      }
+    },
+    "errors": {
+      "blank": "必须输入",
+      "credit_card_session_expired": "信用卡授权已过期。请再次输入您的付款信息。您的卡不会被扣款。",
+      "empty": "不能是空白的",
+      "invalid_email": "必须是一个有效的E-mail地址",
+      "discount_disabled": "不能使用这个折扣",
+      "discount_expired": "此折扣已过期",
+      "discount_limit_reached": "此折扣已达到其使用限制",
+      "discount_not_found": "未找到与您输入的代码匹配的折扣",
+      "customer_already_used_once_per_customer_discount_notice": "此折扣已达到其使用限制",
+      "gift_card_already_applied": "代码已应用于您的付款",
+      "gift_card_code_invalid": "代码无效",
+      "gift_card_currency_mismatch": "礼品卡是 %{gift_card_currency}。请联系我们以 %{checkout_currency} 重新发行。",
+      "gift_card_depleted": "这张礼品卡上没有余额",
+      "gift_card_disabled": "礼品卡无效",
+      "gift_card_expired": "礼品卡已过期",
+      "invalid": "无效的",
+      "bad_domain": "包含无效域名",
+      "taken": "已在使用中",
+      "contains_html_tags": "不能包含 HTML 标签",
+      "too_short": "太短（至少 %{count} 个字符）",
+      "too_long": "太长（最多 %{count} 个字符或更少）",
+      "password_mismatch": "必须与输入的密码相匹配",
+      "contains_spaces": "以空格开头或结尾。",
+      "email_domain_invalid": "不支持供应商",
+      "invalid_for_country": "在 %{country} 无效",
+      "invalid_for_country_and_province": "在 %{province} 和 %{country} 无效",
+      "invalid_province_in_country": "不适用于 %{country} 的领土",
+      "invalid_state_in_country": "在 %{country} 的州无效",
+      "invalid_region_in_country": "对 %{country} 地区无效",
+      "less_than_or_equal_to": "必须小于或等于 %{count}",
+      "not_supported": "不支持",
+      "full_name_required": "输入您的名字和姓氏",
+      "invalid_for_card_type": "无效",
+      "invalid_type": "对不起。我们不接受这种类型的卡。",
+      "invalid_format": "格式不正确",
+      "expired": "已到期",
+      "invalid_start_date_or_issue_number_for_debit": "需要开始日期或发行编号。",
+      "invalid_expiry_year": "不是有效的到期日期",
+      "reset_password_html": "此电子邮件地址已与您的帐户相关联。如果这个账号是你的，你也可以<a href=\"\/account\/login#recover\">重设密码<\/a>。",
+      "verify_email": "一封电子邮件已发送至 %{customer_email}。单击电子邮件中的链接以验证您的电子邮件地址。",
+      "blocked_address": "不支持此位置。",
+      "product_not_available": "该产品未向该客户公开。"
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "密码重置错误",
+        "no_account_found": "找不到帐户。",
+        "invalid_credentials": "错误的邮箱帐号或密码。",
+        "denylisted_reset_password": "无法访问您的帐户，因为您当前的密码不安全。将向您发送一封电子邮件以更新您的密码。"
+      },
+      "address": {
+        "updated": "您的地址已成功更新。",
+        "error_updating": "地址更新失败。"
       }
     }
   },
