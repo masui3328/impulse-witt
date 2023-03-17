@@ -633,6 +633,59 @@
         "updated": "您的地址已成功更新。",
         "error_updating": "地址更新失败。"
       }
+    },
+    "email_marketing": {
+      "open_tracking": {
+        "updated_policy": {
+          "opt_out_html": "如果您不想分享此信息，可以<a style=\"text-decoration:underline;\" href=\"%%7Blink%7D\">取消订阅<\/a>。"
+        }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "通常在 1 小时内准备好",
+        "two_hours": "通常在 2 小时内准备好",
+        "four_hours": "通常在 4 小时内准备好",
+        "twenty_four_hours": "24小时内准备好",
+        "two_to_four_days": "通常在 2-4 天内准备就绪",
+        "five_or_more_days": "5 天或更长时间准备就绪",
+        "zero_to_two_hours": "通常在 2 小时内准备好",
+        "two_to_four_hours": "通常在 4 小时内准备好",
+        "immediately": "准备取货",
+        "next_day": "准备第二天取货"
+      }
+    },
+    "filters": {
+      "availability": {
+        "label": "展会状态",
+        "value": {
+          "in_stock": "有存货",
+          "out_of_stock": "缺货"
+        }
+      },
+      "vendor": {
+        "label": "品牌"
+      },
+      "price": {
+        "label": "价格"
+      },
+      "product_type": {
+        "label": "产品类别"
+      },
+      "boolean": {
+        "true_label": "是的",
+        "false_label": "不"
+      },
+      "tags": {
+        "label": "详细过滤器"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "关联",
+        "price_ascending": "低价订货",
+        "price_descending": "高价"
+      }
     }
   },
   "customer_accounts": {
@@ -776,8 +829,133 @@
       "visa": "签证",
       "mastercard": "万事达",
       "shoppay": "商店支付",
-      "applepay": "苹果支付"
-    }
+      "applepay": "苹果支付",
+      "googlepay": "谷歌支付",
+      "paypal": "贝宝",
+      "americanexpress": "美国运通",
+      "discover": "发现",
+      "dinersclub": "大来俱乐部",
+      "jcb": "杰西博",
+      "elo": "埃洛",
+      "visaelectron": "签证电子",
+      "maestro": "大师",
+      "dankort": "丹科特",
+      "hipercard": "高卡",
+      "unionpay": "银联",
+      "laser": "激光"
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "隐藏帐户菜单",
+        "label": "帐户",
+        "show_accessibility_label": "显示帐户菜单"
+      },
+      "action_menu_accessibility_label": "其他操作",
+      "close_menu_accessibility_label": "关闭主菜单",
+      "contact_email_subject": "在{{shopName}}的网上商店查询",
+      "contact_link": "询问",
+      "delete_confirmation": {
+        "cancel": "取消",
+        "delete": "删除"
+      },
+      "dismiss_toast": "关闭",
+      "document_title": "{{sectionName}} - {{shopName}} - 账户",
+      "go_to_store_link": "去商店",
+      "loading_message": "加载中",
+      "log_out_link": "登出",
+      "logout_overlay_label": "注销...",
+      "nav_label_accessibility_label": "主菜单",
+      "navigation_accessibility_message": "移至{{sectionName}}",
+      "open_menu_accessibility_label": "打开主菜单",
+      "orders_link_label": "命令",
+      "shop_logo_accessibility_label": "{{shopName}}标志",
+      "subscriptions_link_label": "订阅"
+    },
+    "account_information": {
+      "loading_accessibility_message": "加载账户信息",
+      "loading_finished_accessibility_message": "账户信息已加载",
+      "profile_card": {
+        "cancel": "取消",
+        "cancel_accessibility_label": "取消个人资料编辑",
+        "edit": "编辑",
+        "edit_accessibility_label": "编辑个人资料",
+        "email_help_text": "用于登录的电子邮件地址不能更改",
+        "phone_number_help_text": "用于登录的电话号码不能更改",
+        "save": "保持",
+        "save_accessibility_label": "保存个人信息",
+        "title": "轮廓"
+      },
+      "profile_update_confirmation_message": "个人资料已更新",
+      "title": "帐户信息",
+      "people": {
+        "pagination": {
+          "load_more": "装载更多",
+          "load_more_accessibility_label": "加载更多用户",
+          "loading_accessibility_label": "加载用户"
+        }
+      }
+    },
+    "orders": {
+      "list_layout_accessibility_label": "布局选项",
+      "list_title": "命令",
+      "order_list": {
+        "column_headers": {
+          "total": "全部的",
+          "items": "物品",
+          "order": "命令"
+        },
+        "delivered": "交付： {{date}}",
+        "empty_state_order_source_description": "只有{{email}}发出的订单才会显示在这里。",
+        "empty_state_subtitle": "去商店下订单。",
+        "empty_state_title": "暂无订单",
+        "estimated_delivery": "预计交货日期： {{date}}",
+        "items": {
+          "one": "{{count}}项",
+          "other": "{{count}}项"
+        },
+        "list_view": "显示列表视图",
+        "order_link": "查看订单（ {{name}} ）",
+        "order_number": "订单（ {{name}} ）",
+        "orders_title": "确认的",
+        "pagination": {
+          "nav_accessibility_label": "订单菜单按钮",
+          "next": "到下一个",
+          "next_accessibility_label": "下一个订单",
+          "previous": "向前",
+          "previous_accessibility_label": "之前的订单",
+          "load_more": "装载更多",
+          "load_more_accessibility_label": "加载更多订单"
+        },
+        "sort_by": "排序依据： {{option}}",
+        "sort_hide_options_accessibility_label": "隐藏已确认订单的排序选项。",
+        "sort_show_options_accessibility_label": "查看已确认订单的排序选项。",
+        "sort_title": "排序方式",
+        "sort": {
+          "date": {
+            "newest": "新命令",
+            "oldest": "旧秩序"
+          },
+          "location": {
+            "ascending": "位置（A-Z）",
+            "descending": "位置（Z-A）"
+          },
+          "order_number": {
+            "ascending": "订单号（升序）",
+            "descending": "订单号（降序）"
+          },
+          "order_total": {
+            "ascending": "订单总计（升序）",
+            "descending": "订单总计（降序）"
+          }
+        },
+        "table_view": "显示表视图",
+        "one_images_accessibility_label": "订单包含{{lineItemName1}}",
+        "two_images_accessibility_label": "订单包含{{lineItemName1}}和{{lineItemName2}}",
+        "three_images_accessibility_label": "订单包括{{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "订单包括{{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}"
+      }
+    },
+    "enable_javascript": "要查看，请在您的浏览器设置中启用 JavaScript 或使用其他浏览器登录。"
   },
   "collections": {
     "general": {
@@ -789,7 +967,8 @@
       "items_with_count": {
         "one": "{{ count }}产品",
         "other": "{{ count }}产品"
-      }
+      },
+      "catalog_title": "目录"
     },
     "sorting": {
       "title": "种类"
@@ -987,6 +1166,140 @@
       "shop_link": "开始购物",
       "print": "打印",
       "add_to_apple_wallet": "添加到苹果钱包"
+    }
+  },
+  "sections": {
+    "map": {
+      "get_directions": "获取路线",
+      "address_error": "查找该地址时出错",
+      "address_no_results": "该地址没有结果",
+      "address_query_limit_html": "您已超出 Google API 使用限制。请考虑升级到<a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">高级计划<\/a>。",
+      "auth_error_html": "验证您的 Google 地图帐户时出现问题。请为您的应用创建并启用<a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key\">JavaScript API<\/a>和<a href=\"https:\/\/developers.google.com\/maps\/documentation\/geocoding\/get-api-key\">地理编码 API<\/a>权限。"
+    },
+    "slideshow": {
+      "play_slideshow": "播放幻灯片",
+      "pause_slideshow": "暂停幻灯片"
+    }
+  },
+  "general": {
+    "404": {
+      "title": "404页面不存在",
+      "subtext_html": "<p>您要查找的页面不存在。<\/p><p> <a href=\"&lt;span%20class=\" notranslate>{{ url }} '&gt;继续购物<\/a><\/p>"
+    },
+    "accessibility": {
+      "skip_to_content": "跳到内容",
+      "close_modal": "关闭 (esc)",
+      "close": "关闭",
+      "learn_more": "了解更多"
+    },
+    "meta": {
+      "tags": "标记为“ {{ tags }} ”",
+      "page": "第{{ page }}页"
+    },
+    "pagination": {
+      "previous": "以前的",
+      "next": "下一个"
+    },
+    "password_page": {
+      "login_form_heading": "使用密码进入商店",
+      "login_form_password_label": "密码",
+      "login_form_password_placeholder": "你的密码",
+      "login_form_submit": "进入",
+      "signup_form_email_label": "电子邮件",
+      "signup_form_success": "我们会在开门前给您发送一封电子邮件！",
+      "admin_link_html": "店主<a href=\"\/admin\" class=\"text-link\">？<\/a>",
+      "password_link": "密码",
+      "powered_by_shopify_html": "这家商店将由{{ shopify }}提供支持"
+    },
+    "breadcrumbs": {
+      "home": "家",
+      "home_link_title": "返回首页"
+    },
+    "social": {
+      "share_on_facebook": "分享",
+      "share_on_twitter": "鸣叫",
+      "share_on_pinterest": "压住他",
+      "alt_text": {
+        "share_on_facebook": "在脸书上分享",
+        "share_on_twitter": "在推特上发推文",
+        "share_on_pinterest": "Pin 上的 Pinterest"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "输入你的电子邮箱",
+      "newsletter_confirmation": "感谢订阅",
+      "submit": "订阅"
+    },
+    "search": {
+      "view_more": "查看更多",
+      "no_results_html": "您搜索“ {{ terms }} ”没有得到任何结果。",
+      "results_for_html": "您对“ {{ terms }} ”的搜索显示了以下内容：",
+      "title": "搜索",
+      "placeholder": "搜索我们的商店",
+      "submit": "搜索",
+      "result_count": {
+        "one": "{{ count }}结果",
+        "other": "{{ count }}个结果"
+      }
+    },
+    "drawers": {
+      "navigation": "网站导航",
+      "close_menu": "关闭菜单",
+      "expand_submenu": "展开子菜单",
+      "collapse_submenu": "折叠子菜单"
+    },
+    "currency": {
+      "dropdown_label": "货币"
+    },
+    "language": {
+      "dropdown_label": "语言"
+    }
+  },
+  "blogs": {
+    "article": {
+      "view_all": "查看全部",
+      "tags": "标签",
+      "read_more": "继续阅读",
+      "back_to_blog": "回到{{ title }}"
+    },
+    "comments": {
+      "title": "发表评论",
+      "name": "姓名",
+      "email": "电子邮件",
+      "message": "信息",
+      "post": "发表评论",
+      "moderated": "请注意，评论必须在发布前获得批准",
+      "success_moderated": "您的评论已成功发布。我们将在稍后发布，因为我们的博客正在审核中。",
+      "success": "您的评论发布成功！",
+      "with_count": {
+        "one": "{{ count }}条评论",
+        "other": "{{ count }}条评论"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "大车",
+      "remove": "消除",
+      "note": "订单备注",
+      "subtotal": "小计",
+      "discounts": "折扣",
+      "shipping_at_checkout": "结账时计算的运费、税金和折扣代码。",
+      "update": "更新购物车",
+      "checkout": "查看",
+      "empty": "您的购物车目前是空的。",
+      "continue_browsing_html": "<a href=\"&lt;span%20class=\" notranslate>{{ url }} '&gt;继续购物<\/a>",
+      "close_cart": "关闭购物车",
+      "reduce_quantity": "将物品数量减少一个",
+      "increase_quantity": "将物品数量增加一",
+      "terms": "我同意条款和条件",
+      "terms_html": "我同意<a href=\"&lt;span%20class=\" notranslate>{{ url }} ' target='_blank'&gt;条款和条件<\/a>",
+      "terms_confirm": "您必须同意销售条款和条件才能结帐"
+    },
+    "label": {
+      "price": "价格",
+      "quantity": "数量",
+      "total": "全部的"
     }
   }
 }
