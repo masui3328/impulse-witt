@@ -286,7 +286,7 @@
       "account": "Account",
       "log_out": "Log out",
       "log_in": "Log in",
-      "create_account": "Create account"
+      "create_account": "新規会員登録はこちら"
     },
     "footer": {
       "social_platform": "{{ name }} on {{ platform }}"
