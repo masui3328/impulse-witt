@@ -210,7 +210,7 @@
       "title": "Login",
       "email": "Email",
       "password": "Password",
-      "forgot_password": "Forgot password?",
+      "forgot_password": "パスワードの再設定はこちら",
       "sign_in": "Sign In",
       "cancel": "Return to Store",
       "guest_title": "Continue as a guest",
@@ -261,12 +261,12 @@
       "submit": "Reset Password"
     },
     "register": {
-      "title": "Create Account",
-      "first_name": "First Name",
-      "last_name": "Last Name",
+      "title": "新規会員登録",
+      "first_name": "名 First Name",
+      "last_name": "姓  Last Name",
       "email": "Email",
       "password": "Password",
-      "submit": "Create",
+      "submit": "会員登録する",
       "cancel": "Return to Store"
     }
   },
