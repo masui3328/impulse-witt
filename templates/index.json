@@ -297,9 +297,9 @@
         "home_featured_products": "pre-order-products",
         "per_row": 4,
         "rows": 3,
-        "mobile_scrollable": true,
+        "mobile_scrollable": false,
         "view_all": true,
-        "divider": false
+        "divider": true
       }
     },
     "background-image-text": {
