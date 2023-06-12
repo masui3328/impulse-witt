@@ -293,7 +293,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Pre-order products",
+        "title": "Pre order products",
         "home_featured_products": "pre-order-products",
         "per_row": 4,
         "rows": 3,
