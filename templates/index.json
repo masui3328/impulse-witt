@@ -305,8 +305,8 @@
     "8bfd5993-04fe-4637-9041-6aa6b4d6f18a": {
       "type": "featured-collection",
       "settings": {
-        "title": "Stock product",
-        "home_featured_products": "",
+        "title": "Stock products",
+        "home_featured_products": "stock-products",
         "per_row": 4,
         "rows": 3,
         "mobile_scrollable": false,
