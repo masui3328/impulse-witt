@@ -345,6 +345,18 @@
         "show_button": true,
         "background_image_position": "center center"
       }
+    },
+    "8bfd5993-04fe-4637-9041-6aa6b4d6f18a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 3,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": true
+      }
     }
   },
   "order": [
@@ -356,6 +368,7 @@
     "featured-collection",
     "background-image-text",
     "blog-posts",
-    "map"
+    "map",
+    "8bfd5993-04fe-4637-9041-6aa6b4d6f18a"
   ]
 }
