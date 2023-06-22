@@ -925,27 +925,14 @@
     },
     "filters": {
       "availability": {
-        "label": "展会状态",
         "value": {
           "in_stock": "有存货",
           "out_of_stock": "缺货"
         }
       },
-      "vendor": {
-        "label": "品牌"
-      },
-      "price": {
-        "label": "价格"
-      },
-      "product_type": {
-        "label": "产品类别"
-      },
       "boolean": {
         "true_label": "是的",
         "false_label": "不"
-      },
-      "tags": {
-        "label": "详细过滤器"
       }
     },
     "search": {
