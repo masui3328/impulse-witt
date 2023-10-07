@@ -2,7 +2,6 @@
   "sections": {
     "slideshow": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "slideshow-0": {
           "type": "image",
@@ -64,6 +63,7 @@
         "slideshow-1",
         "4e575b23-ff87-4710-bc10-a3f2ac302d4f"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "750px",
         "mobile_height": "auto",
@@ -75,7 +75,6 @@
     },
     "rich-text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -95,6 +94,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -176,7 +176,6 @@
     },
     "featured-collections": {
       "type": "featured-collections",
-      "disabled": true,
       "blocks": {
         "featured-collections-0": {
           "type": "collection",
@@ -217,6 +216,7 @@
         "featured-collections-2",
         "featured-collections-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Shop by category",
         "divider": false,
@@ -226,7 +226,6 @@
     },
     "promo-grid2": {
       "type": "promo-grid",
-      "disabled": true,
       "blocks": {
         "promo2-0": {
           "type": "advanced",
@@ -283,6 +282,7 @@
         "promo2-1",
         "promo2-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "gutter_size": 20,
@@ -357,6 +357,26 @@
         "show_button": true,
         "background_image_position": "center center"
       }
+    },
+    "169667355088d34753": {
+      "type": "apps",
+      "blocks": {
+        "d72055cc-1987-4390-af4d-7f2c332e0e71": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "d72055cc-1987-4390-af4d-7f2c332e0e71"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -369,6 +389,7 @@
     "8bfd5993-04fe-4637-9041-6aa6b4d6f18a",
     "background-image-text",
     "blog-posts",
-    "map"
+    "map",
+    "169667355088d34753"
   ]
 }
